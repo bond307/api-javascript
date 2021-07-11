@@ -1,0 +1,51 @@
+*{
+    margin:0 auto;
+    padding: auto;
+}
+#main-page{
+    background-image: url(https://mocah.org/uploads/posts/503071-active-activity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+}
+.box{
+    padding: 100px 0px;
+}
+#bn{
+    display: none;
+}
+
+.box h2{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px;
+    font-size: 25px;
+}
+
+
+#showActivity{
+    display:none;
+    text-align:left;
+}
+#showActivity h6{
+    color: tomato;
+    font-size: 20px;
+}
+.activity-box{
+    border: 1px solid #ddd;
+    background:rgba(0,0,0,0.7);
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px;
+    color: #fff;
+    font-size: 20px;
+}
+#showActivity span{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: tomato;
+}
+#showActivity .card{}
